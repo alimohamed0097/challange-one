@@ -87,13 +87,14 @@ ul {
   text-align: center;
 }
 
-.container .result h3 {
+.result-h3 {
   margin-top: 40px;
   font-size: 18px;
   color: #ffffffa6;
 }
 
 .container .result .deg {
+  font-weight: bold;
   font-size: 80px;
   margin: 30px auto;
   height: 200px;
@@ -113,18 +114,18 @@ ul {
   color: #ffffff8a;
 }
 
-.container .result div:last-of-type {
-  font-size: 22px;
+.font {
+  font-size: 28px;
   font-weight: bold;
 }
 
-.container .result p {
+.p {
   padding: 0 60px 40px;
   color: #ffffffa6;
 }
 
-.container .summary h3 {
-  margin: 30px;
+.h3 {
+  margin: 40px;
 }
 
 .container .summary ul li {
@@ -133,7 +134,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   background: gray;
-  margin: 20px 30px;
+  margin: 30px 40px;
   border-radius: 10px;
 }
 
@@ -157,13 +158,13 @@ ul {
   color: hsl(234, 85%, 45%);
 }
 
-.container .summary ul li .skills {
+.container .summary ul li .skill {
   display: flex;
   align-items: center;
   justify-content: space-between
 }
 
-.container .summary ul li .skills img {
+.container .summary ul li .skill img {
   margin-right: 10px;
 }
 
@@ -178,17 +179,17 @@ ul {
 .container .summary input {
   display: block;
   margin: 20px auto;
-  padding: 20px 100px;
+  padding: 15px 115px;
   border-radius: 50px;
   border: none;
   color: white;
   cursor: pointer;
   background-image: linear-gradient(to top, #303b59 0%, #303b59 100%);
-  transition:background-image 5s linear;
-  -webkit-transition:background-image 5s linear;
-  -moz-transition:background-image 5s linear;
-  -ms-transition:background-image 5s linear;
-  -o-transition:background-image 5s linear;
+  transition: background-image 5s linear;
+  -webkit-transition: background-image 5s linear;
+  -moz-transition: background-image 5s linear;
+  -ms-transition: background-image 5s linear;
+  -o-transition: background-image 5s linear;
 }
 
 .container .summary input:hover {
